@@ -1,0 +1,2 @@
+function foo(a,b){return a+b;}console.log(foo(1, "1")); // output: 11
+This is unexpected behavior because we expect it to return 2. This is because JavaScript performs type coercion and treats both arguments as strings, concatenating them instead of adding them numerically.
